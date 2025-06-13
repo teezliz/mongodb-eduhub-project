@@ -1,0 +1,7 @@
+pymongo
+dnspython
+jupyter
+jupyterlab
+pandas
+flask
+python-dotenv
