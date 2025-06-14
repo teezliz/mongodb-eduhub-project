@@ -1,115 +1,93 @@
 # EduHub MongoDB Project
 
-📚 **EduHub** is a fully functional e-learning platform database project, built with **MongoDB** and **Python**, simulating core functionalities of modern online education systems: course management, enrollments, and performance tracking.
+## 📚 Project Overview
+
+**EduHub** is a MongoDB-powered e-learning platform database project that simulates a real-world online learning system. The project includes user management, courses, enrollments, assignments, analytics, and system optimization — all fully built using MongoDB and Python.
+
+This project was completed as part of my **Data Engineering Learning Journey** to demonstrate my skills in:
+
+- MongoDB (NoSQL database design)
+- CRUD operations
+- Aggregation pipelines
+- Python (PyMongo)
+- Database analytics & optimization
+- Project documentation and version control (Git/GitHub)
 
 ---
 
-## 🚀 Project Highlights
+## 🗂️ Project Structure
 
-This project demonstrates:
-
-- 🏗️ Flexible NoSQL schema design
-- 🔄 Full CRUD operations via PyMongo
-- 🧹 Data cleaning & deduplication techniques
-- 📊 Aggregation pipelines for analytics and reporting
-- 🖥️ CLI-based database interaction
-
----
-
-## 🛠 Tech Stack
-
-- Python 3
-- MongoDB
-- PyMongo
-- Anaconda (for virtual environment)
-- Command Line Interface (CLI)
-
----
-
-## 📂 Project Structure
-
-bash
 mongodb-eduhub-project/
 │
-├── data/            
-├── notebooks/       
-├── src/             
-│   ├── db_connect.py
-│   ├── insert_data.py
-│   ├── queries.py
-│   ├── update_data.py
-│   ├── deduplicate.py
-│   ├── analytics.py
-│   └── dashboard.py
-├── requirements.txt
-└── README.md
+├── data/ # Sample datasets (JSON/CSV)
+├── notebooks/ # Jupyter Notebooks for analysis & queries
+├── src/ # Python scripts for DB operations
+├── assets/ # Visual assets (mockup, diagrams)
+├── requirements.txt # Python dependencies
+├── README.md # Project documentation
+└── .gitignore
 
-⚙️ Installation
+---
 
-1️⃣ Clone the repository:
+## 🔧 Technologies Used
 
-bash
+- MongoDB
+- MongoDB Compass
+- Python (PyMongo)
+- Jupyter Notebook
+- Git & GitHub
+- Windows (local server setup)
+
+---
+
+## 🖼 Project Mockup
+
+![Project Mockup](assets/mockup.png)
+
+---
+
+## 📊 Features Implemented
+
+- ✅ Database design (EduHub DB with collections)
+- ✅ Data insertion & seeding
+- ✅ CRUD operations
+- ✅ Complex aggregation pipelines for analytics
+- ✅ Indexing for query optimization
+- ✅ Backup & restore processes
+- ✅ Performance testing
+- ✅ Clean project structure with version control
+
+---
+
+## 🎯 Key Takeaways
+
+- Real-world experience managing MongoDB databases.
+- Working with data pipelines & analytics.
+- Problem-solving skills for debugging and optimization.
+- Proper documentation and professional project delivery.
+
+---
+
+## 🚀 How to Run the Project
+
+1️⃣ Clone the repo:
+```bash
 git clone https://github.com/teezliz/mongodb-eduhub-project.git
-cd mongodb-eduhub-project
-
-2️⃣ Create and activate virtual environment:
-
-bash
-python -m venv venv
-venv\Scripts\activate   
-
-3️⃣ Install project dependencies:
+2️⃣ Set up virtual environment & install dependencies:
 
 bash
 pip install -r requirements.txt
+3️⃣ Launch MongoDB server (make sure mongod is running)
 
-4️⃣ Make sure MongoDB server is installed and running locally.
+4️⃣ Open Jupyter Notebook or run scripts from src/ folder.
 
-🏃‍♀️ Usage
-Run any of the following scripts inside src/ to perform database operations:
-
-Insert data → insert_data.py
-
-Update data → update_data.py
-
-Perform queries → queries.py
-
-Deduplicate → deduplicate.py
-
-Run analytics → analytics.py
-
-Launch dashboard → dashboard.py
-
-Example:
-
-bash
-python src/insert_data.py
-
-
-🚀 Key Features
-Full NoSQL schema design for e-learning platform
-
-Clean CRUD operations using PyMongo
-
-Real-world data cleaning and deduplication logic
-
-Aggregation pipelines for analytics and reporting
-
-Modular and scalable project structure
-
-Prepared for future expansion (assignments, grading, notifications)
-
-
-
-🤝 Contributing
-Contributions are welcome.
-Feel free to fork this repository and submit pull requests.
-
-📄 License
-This project is for educational & learning purposes only.
-Open to the public for non-commercial use.
-
-👩‍💻 Author
+💎 Author
 Ogundipe Elizabeth
 
-✅ Project Status: Completed ✅
+🔗 LinkedIn
+
+📧 Email
+
+🐙 GitHub
+
+✅ PROJECT: 100% COMPLETE
