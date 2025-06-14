@@ -85,6 +85,22 @@ Example:
 bash
 python src/insert_data.py
 
+
+🚀 Key Features
+Full NoSQL schema design for e-learning platform
+
+Clean CRUD operations using PyMongo
+
+Real-world data cleaning and deduplication logic
+
+Aggregation pipelines for analytics and reporting
+
+Modular and scalable project structure
+
+Prepared for future expansion (assignments, grading, notifications)
+
+
+
 🤝 Contributing
 Contributions are welcome.
 Feel free to fork this repository and submit pull requests.
